@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Comic_Andy.ttf">
+            <string>comicandy</string>
+        </array>
+        <array key="Sunday-Regular.otf">
+            <string>Sunday-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="cZO-GT-6nV">
+            <objects>
+                <navigationController id="Kzh-OF-YBG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TJo-4b-L82">
+                        <rect key="frame" x="0.0" y="20" width="768" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="bmD-fd-5Sq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hYB-L3-zJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-359" y="38"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SpellerBee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainPage" translatesAutoresizingMaskIntoConstraints="NO" id="xqa-j8-CbN">
+                                <rect key="frame" x="-15" y="0.0" width="783" height="1024"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UY-qH-pHL">
+                                <rect key="frame" x="280" y="839" width="208" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="comicandy" family="comic andy" pointSize="55"/>
+                                <state key="normal" title="    ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iTj-P0-k2u" kind="show" identifier="" animates="NO" id="yPa-bK-Buh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64542831231357689" green="0.85281116710260974" blue="0.97763830423355103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="xqa-j8-CbN" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5Od-Kg-EEu"/>
+                            <constraint firstItem="xqa-j8-CbN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-35" id="Gwz-6C-ndL"/>
+                            <constraint firstItem="xqa-j8-CbN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hRM-Ht-Wdz"/>
+                            <constraint firstAttribute="trailing" secondItem="xqa-j8-CbN" secondAttribute="trailing" id="oBN-Wt-tpu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7df-pG-7tv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669.78417266187057" y="31.834532374100721"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="CFx-Xh-Xul">
+            <objects>
+                <viewController id="iTj-P0-k2u" customClass="GameViewController" customModule="SpellerBee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zwP-J3-ft5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beeeeee (3)" translatesAutoresizingMaskIntoConstraints="NO" id="whc-qz-f8o">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC9-53-D7m">
+                                <rect key="frame" x="270" y="918" width="265" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="level2"/>
+                                <connections>
+                                    <action selector="levelTwo:" destination="iTj-P0-k2u" eventType="touchUpInside" id="WCs-Gp-dtL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ic6-pV-x9n">
+                                <rect key="frame" x="232" y="441" width="395" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="395" id="0qz-f4-dpl"/>
+                                    <constraint firstAttribute="height" constant="48" id="TWk-fM-gDP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="17"/>
+                                <color key="textColor" red="0.87843137250000003" green="0.50196078430000002" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NsA-hm-o4S">
+                                <rect key="frame" x="279" y="543" width="316" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idA-t0-cca">
+                                <rect key="frame" x="282" y="726" width="271" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="271" id="HmM-pF-PQK"/>
+                                    <constraint firstAttribute="height" constant="108" id="efc-MP-E5Z"/>
+                                </constraints>
+                                <state key="normal" title=" " image="done">
+                                    <color key="titleColor" red="0.8784313725490196" green="0.50196078431372548" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkWord:" destination="iTj-P0-k2u" eventType="touchUpInside" id="glG-Lm-M0T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hY-mW-bH9">
+                                <rect key="frame" x="314" y="216" width="228" height="231"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="228" id="5C9-gz-CDJ"/>
+                                    <constraint firstAttribute="height" constant="231" id="lWI-qk-VGu"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="bee2"/>
+                                <connections>
+                                    <action selector="soundButton:" destination="iTj-P0-k2u" eventType="touchUpInside" id="rsP-Vk-jTj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jM-nU-992">
+                                <rect key="frame" x="20" y="44" width="227" height="107"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="Pbr-st-W2A"/>
+                                    <constraint firstAttribute="width" constant="227" id="VIf-Ok-ALM"/>
+                                </constraints>
+                                <state key="normal" title="&lt; Home" image="home" backgroundImage="home">
+                                    <color key="titleColor" red="1" green="0.63529411764705879" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.99705451730000005" green="0.91091165789999995" blue="0.25629577520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeButton:" destination="iTj-P0-k2u" eventType="touchUpInside" id="8hn-bK-r83"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="6Cv-qs-xGD">
+                                        <segue key="commit" inheritsFrom="parent" id="BFO-Tj-ctQ"/>
+                                        <segue key="preview" inheritsFrom="commit" id="Tug-rM-uNc"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEa-ZJ-FkU">
+                                <rect key="frame" x="539" y="50" width="209" height="94"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="209" id="Jgv-Oi-V4s"/>
+                                    <constraint firstAttribute="height" constant="94" id="oGJ-Yd-vlH"/>
+                                </constraints>
+                                <state key="normal" title="SHOP &gt;" image="store">
+                                    <color key="titleColor" red="1" green="0.63529411759999999" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.99705451730000005" green="0.91091165789999995" blue="0.25629577520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeButton:" destination="iTj-P0-k2u" eventType="touchUpInside" id="tJu-Ad-hGR"/>
+                                    <segue destination="fwX-YL-Oeh" kind="show" id="Yju-os-hgR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZE0-k1-6wf">
+                                <rect key="frame" x="20" y="918" width="265" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="level1"/>
+                                <connections>
+                                    <action selector="levelOne:" destination="iTj-P0-k2u" eventType="touchUpInside" id="RnI-Wy-9SV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLo-w9-7Mc">
+                                <rect key="frame" x="511" y="913" width="265" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="level3"/>
+                                <connections>
+                                    <action selector="levelThree:" destination="iTj-P0-k2u" eventType="touchUpInside" id="QzP-jf-3aY"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="listen" highlightedImage="listen" translatesAutoresizingMaskIntoConstraints="NO" id="2v2-Tp-yx4">
+                                <rect key="frame" x="314" y="90" width="221" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DROPS OF HONEY" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzt-bU-Uqd">
+                                <rect key="frame" x="232" y="44" width="361" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ds2-nS-x5B"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="361" id="wwb-3S-b6C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9137254901960784" blue="0.25882352941176473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NsA-hm-o4S" firstAttribute="centerY" secondItem="JbE-5w-fLy" secondAttribute="centerY" constant="-8" id="19S-TJ-gv8"/>
+                            <constraint firstItem="WEa-ZJ-FkU" firstAttribute="top" secondItem="JbE-5w-fLy" secondAttribute="top" constant="30" id="5EY-KM-QMU"/>
+                            <constraint firstItem="NsA-hm-o4S" firstAttribute="top" secondItem="1hY-mW-bH9" secondAttribute="bottom" constant="96" id="78g-W5-SPv"/>
+                            <constraint firstItem="idA-t0-cca" firstAttribute="centerX" secondItem="JbE-5w-fLy" secondAttribute="centerX" constant="20.5" id="Ahw-K7-Fog"/>
+                            <constraint firstItem="Pzt-bU-Uqd" firstAttribute="top" secondItem="JbE-5w-fLy" secondAttribute="top" constant="32" id="IZY-Jf-Bxy"/>
+                            <constraint firstItem="2jM-nU-992" firstAttribute="leading" secondItem="JbE-5w-fLy" secondAttribute="leading" constant="20" id="N2e-sK-LEe"/>
+                            <constraint firstItem="2jM-nU-992" firstAttribute="top" secondItem="JbE-5w-fLy" secondAttribute="top" constant="24" id="RFo-7e-Bz2"/>
+                            <constraint firstItem="1hY-mW-bH9" firstAttribute="centerX" secondItem="JbE-5w-fLy" secondAttribute="centerX" id="WNl-wl-mV9"/>
+                            <constraint firstItem="JbE-5w-fLy" firstAttribute="trailing" secondItem="WEa-ZJ-FkU" secondAttribute="trailing" constant="20" id="e1h-XN-cjP"/>
+                            <constraint firstItem="WEa-ZJ-FkU" firstAttribute="leading" secondItem="Pzt-bU-Uqd" secondAttribute="trailing" constant="-97" id="fH3-81-HMT"/>
+                            <constraint firstItem="NsA-hm-o4S" firstAttribute="top" secondItem="ic6-pV-x9n" secondAttribute="bottom" constant="54" id="kqv-5d-ID4"/>
+                            <constraint firstItem="NsA-hm-o4S" firstAttribute="centerX" secondItem="JbE-5w-fLy" secondAttribute="centerX" constant="20" id="ouQ-4C-W0Q"/>
+                            <constraint firstItem="ic6-pV-x9n" firstAttribute="centerX" secondItem="JbE-5w-fLy" secondAttribute="centerX" id="uST-oS-Y33"/>
+                            <constraint firstItem="idA-t0-cca" firstAttribute="top" secondItem="NsA-hm-o4S" secondAttribute="bottom" constant="132" id="yoL-BP-ZOQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JbE-5w-fLy"/>
+                    </view>
+                    <connections>
+                        <outlet property="coinsLabel" destination="Pzt-bU-Uqd" id="UIj-J5-LTc"/>
+                        <outlet property="doneButtonShow" destination="idA-t0-cca" id="TOs-Zz-msd"/>
+                        <outlet property="input" destination="NsA-hm-o4S" id="Ciw-Zw-hes"/>
+                        <outlet property="levelOneShow" destination="ZE0-k1-6wf" id="yg6-bv-7Nj"/>
+                        <outlet property="levelThreeShow" destination="JLo-w9-7Mc" id="9TC-pU-zpv"/>
+                        <outlet property="levelTwoShow" destination="nC9-53-D7m" id="xXp-JH-bYM"/>
+                        <outlet property="soundButtonShow" destination="1hY-mW-bH9" id="Kpi-zp-5DQ"/>
+                        <outlet property="statusLabel" destination="ic6-pV-x9n" id="3Rz-dA-BYh"/>
+                        <segue destination="BP0-49-3FL" kind="show" identifier="endGame" animates="NO" id="VDT-Eo-6QK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7sw-D2-pTV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1395.6834532374103" y="31.834532374100721"/>
+        </scene>
+        <!--Store View Controller-->
+        <scene sceneID="FmP-Rb-r7v">
+            <objects>
+                <viewController id="fwX-YL-Oeh" customClass="StoreViewController" customModule="SpellerBee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eft-o9-kw0">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WnI-BO-GPR">
+                                <rect key="frame" x="20" y="44" width="227" height="107"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="Ia2-C5-SeW"/>
+                                    <constraint firstAttribute="width" constant="227" id="JZr-3q-SjY"/>
+                                </constraints>
+                                <state key="normal" title="&lt; Home" image="home">
+                                    <color key="titleColor" red="1" green="0.63529411759999999" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.99705451730000005" green="0.91091165789999995" blue="0.25629577520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeButton:" destination="iTj-P0-k2u" eventType="touchUpInside" id="qL7-kx-chz"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="IA7-Mh-5WU"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bee1" translatesAutoresizingMaskIntoConstraints="NO" id="3s6-WQ-DUK">
+                                <rect key="frame" x="81" y="140" width="199" height="223"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="223" id="RCY-IZ-cGP"/>
+                                    <constraint firstAttribute="width" constant="199" id="vFI-Ws-bww"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DROPS OF HONEY: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLz-In-DfI">
+                                <rect key="frame" x="274" y="40" width="353" height="48"/>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bee3" translatesAutoresizingMaskIntoConstraints="NO" id="Ubi-98-Hn7">
+                                <rect key="frame" x="74" y="417" width="232" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="MJp-dt-qSh"/>
+                                    <constraint firstAttribute="width" constant="298" id="l74-wJ-6H6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bee4" translatesAutoresizingMaskIntoConstraints="NO" id="j00-Ri-5Eb">
+                                <rect key="frame" x="419" y="438" width="250" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="MVy-cC-YW6"/>
+                                    <constraint firstAttribute="width" constant="250" id="Q5j-pX-XbH"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhm-3S-YyG">
+                                <rect key="frame" x="0.0" y="665" width="298" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="298" id="GBi-ZY-TZz"/>
+                                    <constraint firstAttribute="height" constant="48" id="PuN-Ew-cp3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="30"/>
+                                <state key="normal" title="Buy for 170">
+                                    <color key="titleColor" red="0.87843137250000003" green="0.50196078430000002" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bee35:" destination="fwX-YL-Oeh" eventType="touchUpInside" id="a32-OC-Htv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1V-Ub-1Tc">
+                                <rect key="frame" x="0.0" y="358" width="298" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="298" id="0RO-Iy-IJB"/>
+                                    <constraint firstAttribute="height" constant="48" id="TEK-lk-5cq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="30"/>
+                                <state key="normal" title="Buy for 140">
+                                    <color key="titleColor" red="0.87843137250000003" green="0.50196078430000002" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bee45:" destination="fwX-YL-Oeh" eventType="touchUpInside" id="dYy-Ja-6mb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cy-oN-yvO">
+                                <rect key="frame" x="365" y="357" width="298" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="298" id="EZc-86-NuY"/>
+                                    <constraint firstAttribute="height" constant="48" id="pau-KA-P1B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="30"/>
+                                <state key="normal" title="Buy for 155 ">
+                                    <color key="titleColor" red="0.87843137250000003" green="0.50196078430000002" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bee55:" destination="fwX-YL-Oeh" eventType="touchUpInside" id="QuM-eK-9yg"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bee5" translatesAutoresizingMaskIntoConstraints="NO" id="q9P-6K-cVd">
+                                <rect key="frame" x="78" y="696" width="271" height="279"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="279" id="674-SF-xlj"/>
+                                    <constraint firstAttribute="width" constant="271" id="QNT-CA-GGX"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bee6" translatesAutoresizingMaskIntoConstraints="NO" id="Sz3-3h-j0s">
+                                <rect key="frame" x="419" y="721" width="271" height="239"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="271" id="OW4-Rm-dSo"/>
+                                    <constraint firstAttribute="height" constant="239" id="czm-2g-hT2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honey" translatesAutoresizingMaskIntoConstraints="NO" id="cOT-dZ-0Up">
+                                <rect key="frame" x="244" y="325" width="87" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="65L-uQ-bVc"/>
+                                    <constraint firstAttribute="width" constant="87" id="gtr-xX-Rh0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bee2" translatesAutoresizingMaskIntoConstraints="NO" id="XlA-T1-Gup">
+                                <rect key="frame" x="410.99999999999994" y="96" width="252.00000000000017" height="267"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="267" id="9rg-at-sYg"/>
+                                    <constraint firstAttribute="width" constant="252" id="SZH-8o-VLW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honey" translatesAutoresizingMaskIntoConstraints="NO" id="yXY-Hh-dLv">
+                                <rect key="frame" x="586" y="325" width="87" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="4cp-Ia-O7T"/>
+                                    <constraint firstAttribute="width" constant="87" id="mba-ag-XWx"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honey" translatesAutoresizingMaskIntoConstraints="NO" id="noR-tE-DY0">
+                                <rect key="frame" x="244" y="626" width="87" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="HQk-Xc-hI7"/>
+                                    <constraint firstAttribute="width" constant="87" id="IVT-5h-ZQw"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iw-fF-dxe">
+                                <rect key="frame" x="365" y="665" width="298" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="298" id="8kL-xJ-jvd"/>
+                                    <constraint firstAttribute="height" constant="48" id="owB-rU-oSk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="30"/>
+                                <state key="normal" title="Buy for 185">
+                                    <color key="titleColor" red="0.87843137250000003" green="0.50196078430000002" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bee70:" destination="fwX-YL-Oeh" eventType="touchUpInside" id="1bZ-TI-eWK"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honey" translatesAutoresizingMaskIntoConstraints="NO" id="cVi-nd-fF0">
+                                <rect key="frame" x="596" y="635" width="87" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="87" id="Oxj-xc-oDw"/>
+                                    <constraint firstAttribute="height" constant="98" id="vhc-2W-BUA"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7g-po-fMI">
+                                <rect key="frame" x="0.0" y="1025" width="298" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="298" id="3kn-PG-fMe"/>
+                                    <constraint firstAttribute="height" constant="48" id="4nA-EA-TJB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="30"/>
+                                <state key="normal" title="Buy for 100 ">
+                                    <color key="titleColor" red="0.87843137250000003" green="0.50196078430000002" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bee100:" destination="fwX-YL-Oeh" eventType="touchUpInside" id="H7T-6k-mWc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="honey" translatesAutoresizingMaskIntoConstraints="NO" id="L5X-Ig-pvX">
+                                <rect key="frame" x="262" y="923" width="87" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="Mec-ZL-nBB"/>
+                                    <constraint firstAttribute="width" constant="87" id="kri-ev-o3F"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honey" translatesAutoresizingMaskIntoConstraints="NO" id="uaY-wI-vdQ">
+                                <rect key="frame" x="603" y="923" width="87" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="87" id="Vu8-gr-iD5"/>
+                                    <constraint firstAttribute="height" constant="98" id="nbh-hS-zfu"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVd-xv-rxe">
+                                <rect key="frame" x="431" y="1025" width="298" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="298" id="PwX-jy-8bL"/>
+                                    <constraint firstAttribute="height" constant="48" id="cqK-jN-DHV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="30"/>
+                                <state key="normal" title="Buy for 150">
+                                    <color key="titleColor" red="0.87843137250000003" green="0.50196078430000002" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bee100:" destination="fwX-YL-Oeh" eventType="touchUpInside" id="BS6-SX-DT0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLC-gY-IqX">
+                                <rect key="frame" x="8" y="956" width="298" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="298" id="4ra-YT-X8i"/>
+                                    <constraint firstAttribute="height" constant="48" id="9ph-2O-Eql"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="30"/>
+                                <state key="normal" title="Buy for 200">
+                                    <color key="titleColor" red="0.87843137250000003" green="0.50196078430000002" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bee35:" destination="fwX-YL-Oeh" eventType="touchUpInside" id="H5n-NW-VEo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hs5-aB-MnX">
+                                <rect key="frame" x="365" y="956" width="298" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="CN1-1Q-lIy"/>
+                                    <constraint firstAttribute="width" constant="298" id="uOA-eR-Iab"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Sunday-Regular" family="Sunday" pointSize="30"/>
+                                <state key="normal" title="Buy for 300">
+                                    <color key="titleColor" red="0.87843137250000003" green="0.50196078430000002" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bee35:" destination="fwX-YL-Oeh" eventType="touchUpInside" id="yDn-oB-bYF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.89803921568627454" blue="0.22745098039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="XlA-T1-Gup" secondAttribute="trailing" constant="105" id="26o-wV-yFv"/>
+                            <constraint firstItem="l7g-po-fMI" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" id="2Uq-ng-dcl"/>
+                            <constraint firstItem="Ubi-98-Hn7" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="397" id="7BD-qj-1hb"/>
+                            <constraint firstItem="Zhm-3S-YyG" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="645" id="9cc-CQ-cqf"/>
+                            <constraint firstItem="l7g-po-fMI" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="1005" id="A70-wx-aEf"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="tVd-xv-rxe" secondAttribute="trailing" constant="116" id="A7A-ee-69g"/>
+                            <constraint firstItem="Sz3-3h-j0s" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="762" id="Ajj-as-KkU"/>
+                            <constraint firstItem="tVd-xv-rxe" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="1005" id="BoN-Kf-Nhk"/>
+                            <constraint firstItem="noR-tE-DY0" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="606" id="CGK-5l-M9j"/>
+                            <constraint firstItem="cOT-dZ-0Up" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="305" id="Dev-Pr-SZn"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="4iw-fF-dxe" secondAttribute="trailing" constant="105" id="Dvu-6e-krZ"/>
+                            <constraint firstItem="JLz-In-DfI" firstAttribute="centerX" secondItem="ugg-Pe-dIZ" secondAttribute="centerX" id="Jei-7f-AVd"/>
+                            <constraint firstItem="n1V-Ub-1Tc" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="338" id="JkN-ya-W94"/>
+                            <constraint firstItem="L5X-Ig-pvX" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="963" id="NTA-P3-7Vw"/>
+                            <constraint firstItem="q9P-6K-cVd" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="676" id="OOt-15-XEE"/>
+                            <constraint firstItem="XlA-T1-Gup" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="76" id="Otv-om-r1A"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="yXY-Hh-dLv" secondAttribute="trailing" constant="95" id="PZ3-sF-S2g"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="uaY-wI-vdQ" secondAttribute="trailing" constant="78" id="Q3d-1l-cgI"/>
+                            <constraint firstItem="yXY-Hh-dLv" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="305" id="QBF-fu-f0T"/>
+                            <constraint firstItem="j00-Ri-5Eb" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="418" id="Qtu-n2-Vi2"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="5Cy-oN-yvO" secondAttribute="trailing" constant="105" id="UKQ-SN-brm"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="Sz3-3h-j0s" secondAttribute="trailing" constant="78" id="V7E-Ld-HQd"/>
+                            <constraint firstItem="n1V-Ub-1Tc" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" id="WOH-DK-Ecg"/>
+                            <constraint firstItem="3s6-WQ-DUK" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" constant="81" id="WUD-bC-22h"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="bottom" secondItem="JLC-gY-IqX" secondAttribute="bottom" constant="20" id="WtB-NO-ohA"/>
+                            <constraint firstItem="L5X-Ig-pvX" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" constant="244" id="XSo-qm-81B"/>
+                            <constraint firstItem="q9P-6K-cVd" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" constant="78" id="ZGk-pp-P6R"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="bottom" secondItem="hs5-aB-MnX" secondAttribute="bottom" constant="20" id="Zdg-Ko-NEo"/>
+                            <constraint firstItem="WnI-BO-GPR" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="24" id="aFO-fe-osB"/>
+                            <constraint firstItem="cVi-nd-fF0" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="615" id="doI-Yu-g3g"/>
+                            <constraint firstItem="cOT-dZ-0Up" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" constant="244" id="eCM-az-Oq7"/>
+                            <constraint firstItem="WnI-BO-GPR" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" constant="20" id="en0-Yd-FL2"/>
+                            <constraint firstItem="uaY-wI-vdQ" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="903" id="fiQ-xQ-zBD"/>
+                            <constraint firstItem="3s6-WQ-DUK" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="120" id="gc2-Sz-7gm"/>
+                            <constraint firstItem="noR-tE-DY0" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" constant="244" id="gpc-jb-C8e"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="Ubi-98-Hn7" secondAttribute="trailing" constant="462" id="hwh-3c-Zvy"/>
+                            <constraint firstItem="JLz-In-DfI" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="20" id="i6S-ox-QL3"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="cVi-nd-fF0" secondAttribute="trailing" constant="85" id="il3-cI-KQJ"/>
+                            <constraint firstItem="Zhm-3S-YyG" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" id="m2o-mc-nMC"/>
+                            <constraint firstItem="5Cy-oN-yvO" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="337" id="mIk-N8-Hnt"/>
+                            <constraint firstItem="JLC-gY-IqX" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" constant="8" id="mVv-sd-6WJ"/>
+                            <constraint firstItem="4iw-fF-dxe" firstAttribute="top" secondItem="ugg-Pe-dIZ" secondAttribute="top" constant="645" id="mw8-Un-hoa"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="j00-Ri-5Eb" secondAttribute="trailing" constant="99" id="o25-W7-1L4"/>
+                            <constraint firstItem="ugg-Pe-dIZ" firstAttribute="trailing" secondItem="hs5-aB-MnX" secondAttribute="trailing" constant="105" id="t67-rX-ev8"/>
+                            <constraint firstItem="Ubi-98-Hn7" firstAttribute="leading" secondItem="ugg-Pe-dIZ" secondAttribute="leading" constant="74" id="y5X-JA-DWm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ugg-Pe-dIZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NoW-KX-vKg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1395.6834532374103" y="-713.30935251798564"/>
+        </scene>
+        <!--End Game View Controller-->
+        <scene sceneID="0N6-4Z-YLa">
+            <objects>
+                <viewController id="BP0-49-3FL" customClass="EndGameViewController" customModule="SpellerBee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tCd-Ov-cCf">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="HTf-Gs-83J">
+                                <rect key="frame" x="-6" y="0.0" width="774" height="1024"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUT-fK-3s3">
+                                <rect key="frame" x="259" y="809" width="219" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Ag0-Qq-s1U"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HTf-Gs-83J" firstAttribute="bottom" secondItem="S8d-tl-WZC" secondAttribute="bottom" id="Bar-cL-dX3"/>
+                            <constraint firstItem="HTf-Gs-83J" firstAttribute="leading" secondItem="tCd-Ov-cCf" secondAttribute="leadingMargin" constant="-26" id="PSy-rv-3Lu"/>
+                            <constraint firstItem="HTf-Gs-83J" firstAttribute="top" secondItem="tCd-Ov-cCf" secondAttribute="top" id="Rrs-ua-asH"/>
+                            <constraint firstAttribute="trailing" secondItem="HTf-Gs-83J" secondAttribute="trailing" id="yWL-tZ-ckC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="S8d-tl-WZC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="siI-tK-Y6Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2092.8057553956837" y="32.913669064748206"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="1587" height="2245"/>
+        <image name="bee1" width="410" height="521"/>
+        <image name="bee2" width="443" height="490"/>
+        <image name="bee3" width="601" height="437"/>
+        <image name="bee4" width="793" height="846"/>
+        <image name="bee5" width="535" height="616"/>
+        <image name="bee6" width="505" height="475"/>
+        <image name="beeeeee (3)" width="1587" height="2245"/>
+        <image name="done" width="221" height="108"/>
+        <image name="home" width="465" height="205"/>
+        <image name="honey" width="201" height="303"/>
+        <image name="level1" width="345" height="117"/>
+        <image name="level2" width="345" height="125"/>
+        <image name="level3" width="345" height="133"/>
+        <image name="listen" width="574" height="222"/>
+        <image name="mainPage" width="1587" height="2245"/>
+        <image name="store" width="426" height="164"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="BFO-Tj-ctQ"/>
+    </inferredMetricsTieBreakers>
+</document>

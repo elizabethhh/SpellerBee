@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1808D97B2125CCA600605380 /* SpellerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D97A2125CCA600605380 /* SpellerModel.swift */; };
+		180973E6212720AE001C4DC5 /* cake--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973DC212720AD001C4DC5 /* cake--_us_1.mp3 */; };
+		180973E7212720AE001C4DC5 /* egg--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973DD212720AD001C4DC5 /* egg--_us_1.mp3 */; };
+		180973E8212720AE001C4DC5 /* gold--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973DE212720AD001C4DC5 /* gold--_us_1.mp3 */; };
+		180973E9212720AE001C4DC5 /* grade--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973DF212720AD001C4DC5 /* grade--_us_1.mp3 */; };
+		180973EA212720AE001C4DC5 /* hope--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973E0212720AD001C4DC5 /* hope--_us_1.mp3 */; };
+		180973EB212720AE001C4DC5 /* lake--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973E1212720AD001C4DC5 /* lake--_us_1.mp3 */; };
+		180973EC212720AE001C4DC5 /* bird--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973E2212720AD001C4DC5 /* bird--_us_1.mp3 */; };
+		180973ED212720AE001C4DC5 /* city--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973E3212720AD001C4DC5 /* city--_us_1.mp3 */; };
+		180973EE212720AE001C4DC5 /* funny--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973E4212720AD001C4DC5 /* funny--_us_1.mp3 */; };
+		180973EF212720AE001C4DC5 /* live--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973E5212720AE001C4DC5 /* live--_us_1.mp3 */; };
+		180973FB212720BE001C4DC5 /* orange--_us_1_rr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973F0212720BD001C4DC5 /* orange--_us_1_rr.mp3 */; };
+		180973FC212720BE001C4DC5 /* rock--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973F1212720BD001C4DC5 /* rock--_us_1.mp3 */; };
+		180973FD212720BE001C4DC5 /* sandwich--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973F2212720BD001C4DC5 /* sandwich--_us_1.mp3 */; };
+		180973FE212720BE001C4DC5 /* school--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973F3212720BE001C4DC5 /* school--_us_1.mp3 */; };
+		180973FF212720BE001C4DC5 /* summer--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973F4212720BE001C4DC5 /* summer--_us_1.mp3 */; };
+		18097400212720BE001C4DC5 /* rabbit--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973F5212720BE001C4DC5 /* rabbit--_us_1.mp3 */; };
+		18097401212720BE001C4DC5 /* tree--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973F6212720BE001C4DC5 /* tree--_us_1.mp3 */; };
+		18097402212720BE001C4DC5 /* stop--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973F7212720BE001C4DC5 /* stop--_us_1.mp3 */; };
+		18097403212720BE001C4DC5 /* receive--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973F8212720BE001C4DC5 /* receive--_us_1.mp3 */; };
+		18097404212720BE001C4DC5 /* three--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973F9212720BE001C4DC5 /* three--_us_1.mp3 */; };
+		18097405212720BE001C4DC5 /* snow--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 180973FA212720BE001C4DC5 /* snow--_us_1.mp3 */; };
+		1809740921272D78001C4DC5 /* Sunday-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1809740821272D77001C4DC5 /* Sunday-Regular.otf */; };
+		183B73152124B2990028F52F /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183B73142124B2990028F52F /* EndGameViewController.swift */; };
+		18CED6C62126051300ACF88B /* hat--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CED6BC2126051300ACF88B /* hat--_us_1.mp3 */; };
+		18CED6C72126051300ACF88B /* home--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CED6BD2126051300ACF88B /* home--_us_1.mp3 */; };
+		18CED6C82126051300ACF88B /* again--_us_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CED6BE2126051300ACF88B /* again--_us_3.mp3 */; };
+		18CED6C92126051300ACF88B /* wrong--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CED6BF2126051300ACF88B /* wrong--_us_1.mp3 */; };
+		18CED6CA2126051300ACF88B /* map--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CED6C02126051300ACF88B /* map--_us_1.mp3 */; };
+		18CED6CB2126051300ACF88B /* poke--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CED6C12126051300ACF88B /* poke--_us_1.mp3 */; };
+		18CED6CC2126051300ACF88B /* knee--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CED6C22126051300ACF88B /* knee--_us_1.mp3 */; };
+		18CED6CD2126051300ACF88B /* clean--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CED6C32126051300ACF88B /* clean--_us_1.mp3 */; };
+		18CED6CE2126051300ACF88B /* bone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CED6C42126051300ACF88B /* bone.mp3 */; };
+		18CED6CF2126051300ACF88B /* toothbrush--_us_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CED6C52126051300ACF88B /* toothbrush--_us_1.mp3 */; };
+		18CED6D121260C4A00ACF88B /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CED6D021260C4A00ACF88B /* StoreViewController.swift */; };
+		18D36300212357E80033EB9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D362FF212357E80033EB9D /* AppDelegate.swift */; };
+		18D36302212357E80033EB9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36301212357E80033EB9D /* ViewController.swift */; };
+		18D36305212357E80033EB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D36303212357E80033EB9D /* Main.storyboard */; };
+		18D36308212357E80033EB9D /* SpellerBee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D36306212357E80033EB9D /* SpellerBee.xcdatamodeld */; };
+		18D3630A212357E90033EB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D36309212357E90033EB9D /* Assets.xcassets */; };
+		18D3630D212357E90033EB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D3630B212357E90033EB9D /* LaunchScreen.storyboard */; };
+		18D36318212357E90033EB9D /* SpellerBeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36317212357E90033EB9D /* SpellerBeeTests.swift */; };
+		18D36323212357E90033EB9D /* SpellerBeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36322212357E90033EB9D /* SpellerBeeUITests.swift */; };
+		18D3633121235FEB0033EB9D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3633021235FEB0033EB9D /* GameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D36314212357E90033EB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D362F4212357E80033EB9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D362FB212357E80033EB9D;
+			remoteInfo = SpellerBee;
+		};
+		18D3631F212357E90033EB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D362F4212357E80033EB9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D362FB212357E80033EB9D;
+			remoteInfo = SpellerBee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1808D97A2125CCA600605380 /* SpellerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellerModel.swift; sourceTree = "<group>"; };
+		180973DC212720AD001C4DC5 /* cake--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cake--_us_1.mp3"; sourceTree = "<group>"; };
+		180973DD212720AD001C4DC5 /* egg--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "egg--_us_1.mp3"; sourceTree = "<group>"; };
+		180973DE212720AD001C4DC5 /* gold--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gold--_us_1.mp3"; sourceTree = "<group>"; };
+		180973DF212720AD001C4DC5 /* grade--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "grade--_us_1.mp3"; sourceTree = "<group>"; };
+		180973E0212720AD001C4DC5 /* hope--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hope--_us_1.mp3"; sourceTree = "<group>"; };
+		180973E1212720AD001C4DC5 /* lake--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lake--_us_1.mp3"; sourceTree = "<group>"; };
+		180973E2212720AD001C4DC5 /* bird--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bird--_us_1.mp3"; sourceTree = "<group>"; };
+		180973E3212720AD001C4DC5 /* city--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "city--_us_1.mp3"; sourceTree = "<group>"; };
+		180973E4212720AD001C4DC5 /* funny--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "funny--_us_1.mp3"; sourceTree = "<group>"; };
+		180973E5212720AE001C4DC5 /* live--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "live--_us_1.mp3"; sourceTree = "<group>"; };
+		180973F0212720BD001C4DC5 /* orange--_us_1_rr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "orange--_us_1_rr.mp3"; sourceTree = "<group>"; };
+		180973F1212720BD001C4DC5 /* rock--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rock--_us_1.mp3"; sourceTree = "<group>"; };
+		180973F2212720BD001C4DC5 /* sandwich--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sandwich--_us_1.mp3"; sourceTree = "<group>"; };
+		180973F3212720BE001C4DC5 /* school--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "school--_us_1.mp3"; sourceTree = "<group>"; };
+		180973F4212720BE001C4DC5 /* summer--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "summer--_us_1.mp3"; sourceTree = "<group>"; };
+		180973F5212720BE001C4DC5 /* rabbit--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rabbit--_us_1.mp3"; sourceTree = "<group>"; };
+		180973F6212720BE001C4DC5 /* tree--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tree--_us_1.mp3"; sourceTree = "<group>"; };
+		180973F7212720BE001C4DC5 /* stop--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "stop--_us_1.mp3"; sourceTree = "<group>"; };
+		180973F8212720BE001C4DC5 /* receive--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "receive--_us_1.mp3"; sourceTree = "<group>"; };
+		180973F9212720BE001C4DC5 /* three--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "three--_us_1.mp3"; sourceTree = "<group>"; };
+		180973FA212720BE001C4DC5 /* snow--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "snow--_us_1.mp3"; sourceTree = "<group>"; };
+		1809740821272D77001C4DC5 /* Sunday-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sunday-Regular.otf"; sourceTree = "<group>"; };
+		183B73142124B2990028F52F /* EndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
+		18CED6BC2126051300ACF88B /* hat--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hat--_us_1.mp3"; sourceTree = "<group>"; };
+		18CED6BD2126051300ACF88B /* home--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "home--_us_1.mp3"; sourceTree = "<group>"; };
+		18CED6BE2126051300ACF88B /* again--_us_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "again--_us_3.mp3"; sourceTree = "<group>"; };
+		18CED6BF2126051300ACF88B /* wrong--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wrong--_us_1.mp3"; sourceTree = "<group>"; };
+		18CED6C02126051300ACF88B /* map--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "map--_us_1.mp3"; sourceTree = "<group>"; };
+		18CED6C12126051300ACF88B /* poke--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "poke--_us_1.mp3"; sourceTree = "<group>"; };
+		18CED6C22126051300ACF88B /* knee--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "knee--_us_1.mp3"; sourceTree = "<group>"; };
+		18CED6C32126051300ACF88B /* clean--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clean--_us_1.mp3"; sourceTree = "<group>"; };
+		18CED6C42126051300ACF88B /* bone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bone.mp3; sourceTree = "<group>"; };
+		18CED6C52126051300ACF88B /* toothbrush--_us_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "toothbrush--_us_1.mp3"; sourceTree = "<group>"; };
+		18CED6D021260C4A00ACF88B /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		18D362FC212357E80033EB9D /* SpellerBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellerBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D362FF212357E80033EB9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D36301212357E80033EB9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D36304212357E80033EB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D36307212357E80033EB9D /* SpellerBee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpellerBee.xcdatamodel; sourceTree = "<group>"; };
+		18D36309212357E90033EB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D3630C212357E90033EB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D3630E212357E90033EB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D36313212357E90033EB9D /* SpellerBeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellerBeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D36317212357E90033EB9D /* SpellerBeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellerBeeTests.swift; sourceTree = "<group>"; };
+		18D36319212357E90033EB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D3631E212357E90033EB9D /* SpellerBeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellerBeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D36322212357E90033EB9D /* SpellerBeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellerBeeUITests.swift; sourceTree = "<group>"; };
+		18D36324212357E90033EB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D3633021235FEB0033EB9D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D362F9212357E80033EB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D36310212357E90033EB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3631B212357E90033EB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180973DA21272080001C4DC5 /* wordSoundsTwo */ = {
+			isa = PBXGroup;
+			children = (
+				180973E2212720AD001C4DC5 /* bird--_us_1.mp3 */,
+				180973DC212720AD001C4DC5 /* cake--_us_1.mp3 */,
+				180973E3212720AD001C4DC5 /* city--_us_1.mp3 */,
+				180973DD212720AD001C4DC5 /* egg--_us_1.mp3 */,
+				180973E4212720AD001C4DC5 /* funny--_us_1.mp3 */,
+				180973DE212720AD001C4DC5 /* gold--_us_1.mp3 */,
+				180973DF212720AD001C4DC5 /* grade--_us_1.mp3 */,
+				180973E0212720AD001C4DC5 /* hope--_us_1.mp3 */,
+				180973E1212720AD001C4DC5 /* lake--_us_1.mp3 */,
+				180973E5212720AE001C4DC5 /* live--_us_1.mp3 */,
+			);
+			name = wordSoundsTwo;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		180973DB21272096001C4DC5 /* wordSoundsThree */ = {
+			isa = PBXGroup;
+			children = (
+				180973F0212720BD001C4DC5 /* orange--_us_1_rr.mp3 */,
+				180973F5212720BE001C4DC5 /* rabbit--_us_1.mp3 */,
+				180973F8212720BE001C4DC5 /* receive--_us_1.mp3 */,
+				180973F1212720BD001C4DC5 /* rock--_us_1.mp3 */,
+				180973F2212720BD001C4DC5 /* sandwich--_us_1.mp3 */,
+				180973F3212720BE001C4DC5 /* school--_us_1.mp3 */,
+				180973FA212720BE001C4DC5 /* snow--_us_1.mp3 */,
+				180973F7212720BE001C4DC5 /* stop--_us_1.mp3 */,
+				180973F4212720BE001C4DC5 /* summer--_us_1.mp3 */,
+				180973F9212720BE001C4DC5 /* three--_us_1.mp3 */,
+				180973F6212720BE001C4DC5 /* tree--_us_1.mp3 */,
+			);
+			path = wordSoundsThree;
+			sourceTree = "<group>";
+		};
+		18CED6BB2126050700ACF88B /* wordSounds */ = {
+			isa = PBXGroup;
+			children = (
+				18CED6BE2126051300ACF88B /* again--_us_3.mp3 */,
+				18CED6C42126051300ACF88B /* bone.mp3 */,
+				18CED6C32126051300ACF88B /* clean--_us_1.mp3 */,
+				18CED6BC2126051300ACF88B /* hat--_us_1.mp3 */,
+				18CED6BD2126051300ACF88B /* home--_us_1.mp3 */,
+				18CED6C22126051300ACF88B /* knee--_us_1.mp3 */,
+				18CED6C02126051300ACF88B /* map--_us_1.mp3 */,
+				18CED6C12126051300ACF88B /* poke--_us_1.mp3 */,
+				18CED6C52126051300ACF88B /* toothbrush--_us_1.mp3 */,
+				18CED6BF2126051300ACF88B /* wrong--_us_1.mp3 */,
+			);
+			path = wordSounds;
+			sourceTree = "<group>";
+		};
+		18D362F3212357E80033EB9D = {
+			isa = PBXGroup;
+			children = (
+				18D362FE212357E80033EB9D /* SpellerBee */,
+				18D36316212357E90033EB9D /* SpellerBeeTests */,
+				18D36321212357E90033EB9D /* SpellerBeeUITests */,
+				18D362FD212357E80033EB9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D362FD212357E80033EB9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D362FC212357E80033EB9D /* SpellerBee.app */,
+				18D36313212357E90033EB9D /* SpellerBeeTests.xctest */,
+				18D3631E212357E90033EB9D /* SpellerBeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D362FE212357E80033EB9D /* SpellerBee */ = {
+			isa = PBXGroup;
+			children = (
+				1809740821272D77001C4DC5 /* Sunday-Regular.otf */,
+				180973DB21272096001C4DC5 /* wordSoundsThree */,
+				180973DA21272080001C4DC5 /* wordSoundsTwo */,
+				18CED6BB2126050700ACF88B /* wordSounds */,
+				18D362FF212357E80033EB9D /* AppDelegate.swift */,
+				18D36301212357E80033EB9D /* ViewController.swift */,
+				18D36303212357E80033EB9D /* Main.storyboard */,
+				18D36309212357E90033EB9D /* Assets.xcassets */,
+				18D3630B212357E90033EB9D /* LaunchScreen.storyboard */,
+				18D3630E212357E90033EB9D /* Info.plist */,
+				18D36306212357E80033EB9D /* SpellerBee.xcdatamodeld */,
+				18D3633021235FEB0033EB9D /* GameViewController.swift */,
+				183B73142124B2990028F52F /* EndGameViewController.swift */,
+				1808D97A2125CCA600605380 /* SpellerModel.swift */,
+				18CED6D021260C4A00ACF88B /* StoreViewController.swift */,
+			);
+			path = SpellerBee;
+			sourceTree = "<group>";
+		};
+		18D36316212357E90033EB9D /* SpellerBeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D36317212357E90033EB9D /* SpellerBeeTests.swift */,
+				18D36319212357E90033EB9D /* Info.plist */,
+			);
+			path = SpellerBeeTests;
+			sourceTree = "<group>";
+		};
+		18D36321212357E90033EB9D /* SpellerBeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D36322212357E90033EB9D /* SpellerBeeUITests.swift */,
+				18D36324212357E90033EB9D /* Info.plist */,
+			);
+			path = SpellerBeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D362FB212357E80033EB9D /* SpellerBee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D36327212357E90033EB9D /* Build configuration list for PBXNativeTarget "SpellerBee" */;
+			buildPhases = (
+				18D362F8212357E80033EB9D /* Sources */,
+				18D362F9212357E80033EB9D /* Frameworks */,
+				18D362FA212357E80033EB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpellerBee;
+			productName = SpellerBee;
+			productReference = 18D362FC212357E80033EB9D /* SpellerBee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D36312212357E90033EB9D /* SpellerBeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D3632A212357E90033EB9D /* Build configuration list for PBXNativeTarget "SpellerBeeTests" */;
+			buildPhases = (
+				18D3630F212357E90033EB9D /* Sources */,
+				18D36310212357E90033EB9D /* Frameworks */,
+				18D36311212357E90033EB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D36315212357E90033EB9D /* PBXTargetDependency */,
+			);
+			name = SpellerBeeTests;
+			productName = SpellerBeeTests;
+			productReference = 18D36313212357E90033EB9D /* SpellerBeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D3631D212357E90033EB9D /* SpellerBeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D3632D212357E90033EB9D /* Build configuration list for PBXNativeTarget "SpellerBeeUITests" */;
+			buildPhases = (
+				18D3631A212357E90033EB9D /* Sources */,
+				18D3631B212357E90033EB9D /* Frameworks */,
+				18D3631C212357E90033EB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D36320212357E90033EB9D /* PBXTargetDependency */,
+			);
+			name = SpellerBeeUITests;
+			productName = SpellerBeeUITests;
+			productReference = 18D3631E212357E90033EB9D /* SpellerBeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D362F4212357E80033EB9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = KodeWithKlossy;
+				TargetAttributes = {
+					18D362FB212357E80033EB9D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					18D36312212357E90033EB9D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 18D362FB212357E80033EB9D;
+					};
+					18D3631D212357E90033EB9D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 18D362FB212357E80033EB9D;
+					};
+				};
+			};
+			buildConfigurationList = 18D362F7212357E80033EB9D /* Build configuration list for PBXProject "SpellerBee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D362F3212357E80033EB9D;
+			productRefGroup = 18D362FD212357E80033EB9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D362FB212357E80033EB9D /* SpellerBee */,
+				18D36312212357E90033EB9D /* SpellerBeeTests */,
+				18D3631D212357E90033EB9D /* SpellerBeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D362FA212357E80033EB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180973FE212720BE001C4DC5 /* school--_us_1.mp3 in Resources */,
+				180973EA212720AE001C4DC5 /* hope--_us_1.mp3 in Resources */,
+				180973E7212720AE001C4DC5 /* egg--_us_1.mp3 in Resources */,
+				18CED6CE2126051300ACF88B /* bone.mp3 in Resources */,
+				18097402212720BE001C4DC5 /* stop--_us_1.mp3 in Resources */,
+				18097400212720BE001C4DC5 /* rabbit--_us_1.mp3 in Resources */,
+				180973EB212720AE001C4DC5 /* lake--_us_1.mp3 in Resources */,
+				180973E9212720AE001C4DC5 /* grade--_us_1.mp3 in Resources */,
+				18CED6CB2126051300ACF88B /* poke--_us_1.mp3 in Resources */,
+				180973EE212720AE001C4DC5 /* funny--_us_1.mp3 in Resources */,
+				18CED6CD2126051300ACF88B /* clean--_us_1.mp3 in Resources */,
+				180973FD212720BE001C4DC5 /* sandwich--_us_1.mp3 in Resources */,
+				18097401212720BE001C4DC5 /* tree--_us_1.mp3 in Resources */,
+				180973FF212720BE001C4DC5 /* summer--_us_1.mp3 in Resources */,
+				18CED6C92126051300ACF88B /* wrong--_us_1.mp3 in Resources */,
+				18CED6C72126051300ACF88B /* home--_us_1.mp3 in Resources */,
+				180973ED212720AE001C4DC5 /* city--_us_1.mp3 in Resources */,
+				180973E8212720AE001C4DC5 /* gold--_us_1.mp3 in Resources */,
+				18CED6C82126051300ACF88B /* again--_us_3.mp3 in Resources */,
+				180973EF212720AE001C4DC5 /* live--_us_1.mp3 in Resources */,
+				180973E6212720AE001C4DC5 /* cake--_us_1.mp3 in Resources */,
+				18D3630D212357E90033EB9D /* LaunchScreen.storyboard in Resources */,
+				18CED6CA2126051300ACF88B /* map--_us_1.mp3 in Resources */,
+				18CED6C62126051300ACF88B /* hat--_us_1.mp3 in Resources */,
+				18D3630A212357E90033EB9D /* Assets.xcassets in Resources */,
+				180973FB212720BE001C4DC5 /* orange--_us_1_rr.mp3 in Resources */,
+				1809740921272D78001C4DC5 /* Sunday-Regular.otf in Resources */,
+				180973FC212720BE001C4DC5 /* rock--_us_1.mp3 in Resources */,
+				18CED6CC2126051300ACF88B /* knee--_us_1.mp3 in Resources */,
+				18097405212720BE001C4DC5 /* snow--_us_1.mp3 in Resources */,
+				18097404212720BE001C4DC5 /* three--_us_1.mp3 in Resources */,
+				18D36305212357E80033EB9D /* Main.storyboard in Resources */,
+				18CED6CF2126051300ACF88B /* toothbrush--_us_1.mp3 in Resources */,
+				180973EC212720AE001C4DC5 /* bird--_us_1.mp3 in Resources */,
+				18097403212720BE001C4DC5 /* receive--_us_1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D36311212357E90033EB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3631C212357E90033EB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D362F8212357E80033EB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D3633121235FEB0033EB9D /* GameViewController.swift in Sources */,
+				18D36302212357E80033EB9D /* ViewController.swift in Sources */,
+				183B73152124B2990028F52F /* EndGameViewController.swift in Sources */,
+				18D36308212357E80033EB9D /* SpellerBee.xcdatamodeld in Sources */,
+				18D36300212357E80033EB9D /* AppDelegate.swift in Sources */,
+				1808D97B2125CCA600605380 /* SpellerModel.swift in Sources */,
+				18CED6D121260C4A00ACF88B /* StoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3630F212357E90033EB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D36318212357E90033EB9D /* SpellerBeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3631A212357E90033EB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D36323212357E90033EB9D /* SpellerBeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D36315212357E90033EB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D362FB212357E80033EB9D /* SpellerBee */;
+			targetProxy = 18D36314212357E90033EB9D /* PBXContainerItemProxy */;
+		};
+		18D36320212357E90033EB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D362FB212357E80033EB9D /* SpellerBee */;
+			targetProxy = 18D3631F212357E90033EB9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D36303212357E80033EB9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D36304212357E80033EB9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D3630B212357E90033EB9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D3630C212357E90033EB9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D36325212357E90033EB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D36326212357E90033EB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D36328212357E90033EB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YYRV5LKU5U;
+				INFOPLIST_FILE = SpellerBee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ilana.SpellerBee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D36329212357E90033EB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YYRV5LKU5U;
+				INFOPLIST_FILE = SpellerBee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ilana.SpellerBee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18D3632B212357E90033EB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AN2NRHK8F2;
+				INFOPLIST_FILE = SpellerBeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KodeWithKlossy.SpellerBeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpellerBee.app/SpellerBee";
+			};
+			name = Debug;
+		};
+		18D3632C212357E90033EB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AN2NRHK8F2;
+				INFOPLIST_FILE = SpellerBeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KodeWithKlossy.SpellerBeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpellerBee.app/SpellerBee";
+			};
+			name = Release;
+		};
+		18D3632E212357E90033EB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AN2NRHK8F2;
+				INFOPLIST_FILE = SpellerBeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KodeWithKlossy.SpellerBeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpellerBee;
+			};
+			name = Debug;
+		};
+		18D3632F212357E90033EB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AN2NRHK8F2;
+				INFOPLIST_FILE = SpellerBeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KodeWithKlossy.SpellerBeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpellerBee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D362F7212357E80033EB9D /* Build configuration list for PBXProject "SpellerBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D36325212357E90033EB9D /* Debug */,
+				18D36326212357E90033EB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D36327212357E90033EB9D /* Build configuration list for PBXNativeTarget "SpellerBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D36328212357E90033EB9D /* Debug */,
+				18D36329212357E90033EB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D3632A212357E90033EB9D /* Build configuration list for PBXNativeTarget "SpellerBeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D3632B212357E90033EB9D /* Debug */,
+				18D3632C212357E90033EB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D3632D212357E90033EB9D /* Build configuration list for PBXNativeTarget "SpellerBeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D3632E212357E90033EB9D /* Debug */,
+				18D3632F212357E90033EB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18D36306212357E80033EB9D /* SpellerBee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18D36307212357E80033EB9D /* SpellerBee.xcdatamodel */,
+			);
+			currentVersion = 18D36307212357E80033EB9D /* SpellerBee.xcdatamodel */;
+			path = SpellerBee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18D362F4212357E80033EB9D /* Project object */;
+}
